@@ -54,4 +54,63 @@ public class AddCustomerPageObjects {
     @FindBy(id = "cancel-button")
     private WebElement button_cancel;
 
+    public WebElement getTextfield_customerName() {
+        return textfield_customerName;
+    }
+
+    public WebElement getTextfield_contactLastName() {
+        return textfield_contactLastName;
+    }
+
+    public WebElement getTextfield_contactFirstName() {
+        return textfield_contactFirstName;
+    }
+
+    public WebElement getTextfield_phone() {
+        return textfield_phone;
+    }
+
+    public WebElement getTextfield_addressLine1() {
+        return textfield_addressLine1;
+    }
+
+    public WebElement getTextfield_addressLine2() {
+        return textfield_addressLine2;
+    }
+
+    public WebElement getTextfield_city() {
+        return textfield_city;
+    }
+
+    public WebElement getTextfield_state() {
+        return textfield_state;
+    }
+
+    public WebElement getTextfield_postalCode() {
+        return textfield_postalCode;
+    }
+
+    public WebElement getTextfield_country() {
+        return textfield_country;
+    }
+
+    public WebElement getChosen_salesRepEmployeeNumber() {
+        return chosen_salesRepEmployeeNumber;
+    }
+
+    public WebElement getTextfield_creditLimit() {
+        return textfield_creditLimit;
+    }
+
+    public WebElement getButton_save() {
+        return button_save;
+    }
+
+    public WebElement getButton_saveAndGoBackToCustomersPage() {
+        return button_saveAndGoBackToCustomersPage;
+    }
+
+    public WebElement getButton_cancel() {
+        return button_cancel;
+    }
 }
