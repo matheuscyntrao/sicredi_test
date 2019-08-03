@@ -1,4 +1,4 @@
-package Datapool.ORM;
+package Datapool.ORM.Objetos;
 
 public class Customer {
 
