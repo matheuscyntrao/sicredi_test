@@ -41,10 +41,10 @@ public class CustomersPageTasks {
             this.driver.findElement(By.xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/button[2]")).click();
         }
         Thread.sleep(2000);
-        this.verifyIfMesssageSuccessIsPresent();
+        this.isMesssageSuccessIsPresent();
     }
 
-    public boolean verifyIfMesssageSuccessIsPresent() {
+    public boolean isMesssageSuccessIsPresent() {
         return this.driver.findElement(By.className("alert-success")).isDisplayed();
     }
 }
