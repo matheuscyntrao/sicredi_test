@@ -21,10 +21,20 @@
   <component name="ProjectId" id="1OuuS9PYL8aMuf6JsVZJfHMBoXV" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Chrome" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Doce Infância\Desktop\sicredi_test\src\main\java\Driver\WebDrivers\Firefox" />
+      <recent name="C:\Users\Doce Infância\Desktop\sicredi_test\src\main\java\Driver\WebDrivers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Doce Infância\Desktop\sicredi_test\src\main\java\Driver\WebDrivers\Chrome" />
+      <recent name="C:\Users\Doce Infância\Desktop\sicredi_test\src\main\java\Driver" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
