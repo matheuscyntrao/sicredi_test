@@ -1,0 +1,10 @@
+# Background: Navegador Chrome
+
+# Given eu estou na página "https://www.grocerycrud.com/demo/bootstrap_theme"
+# And eu clico no botão "Add Customer"
+# When eu estou na página "https://www.grocerycrud.com/demo/bootstrap_theme/add"
+# And eu preencho os campos corretamente
+# And clico no botão "Save"
+# Then o sistema deverá mostrar a mensagem "Your data has been successfully stored into the database."
+
+RULE: Fechar o browser no final do teste

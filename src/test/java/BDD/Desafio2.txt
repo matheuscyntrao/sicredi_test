@@ -1,0 +1,14 @@
+# Background: Navegador Chrome
+
+# Given eu estou na página "https://www.grocerycrud.com/demo/bootstrap_theme"
+# And eu clico no botão "Add Customer"
+# When eu estou na página "https://www.grocerycrud.com/demo/bootstrap_theme/add"
+# And eu preencho os campos corretamente
+# And clico no botão "Save And Go Back to List"
+# And pesquiso por "Test Sicredi"
+# And clico no checkbox abaixo do actions
+# And clico no botão "Delete"
+# Then o sistema deverá abrir uma modal com a mensagem "Are you sure that you want to delete this 1 item?"
+# And confirmado o sistema deverá mostrar uma mensagem de sucesso com a mensagem "Your data has been successfully deleted from the database."
+
+RULE: Fechar o browser no final do teste
