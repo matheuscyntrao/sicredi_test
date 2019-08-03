@@ -1,6 +1,7 @@
 package PageObjectsFramework;
 
 import Elements.Button;
+import Elements.Chosen;
 import Elements.TextField;
 import PageObjects.AddCustomerPageObjects;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +13,8 @@ public class AddCustomerPageObjectsFramework {
     private AddCustomerPageObjects addCustomerPageObjects;
     private TextField txtCustomerName, txtContactLastName, txtContactFirstName,
             txtPhone, txtAddressLine1, txtAddressLine2, txtCity, txtState, txtPostalCode,
-            txtCountry, txtSalesRepEmployeeNumber, txtCreditLimit;
+            txtCountry, txtCreditLimit;
+    private Chosen txtSalesRepEmployeeNumber;
     private Button btnSave, btnSaveAndGoBack, btnCancel;
 
     public AddCustomerPageObjectsFramework(WebDriver driver) {
@@ -28,7 +30,7 @@ public class AddCustomerPageObjectsFramework {
         this.txtState = new TextField(driver, page.getTextfield_state());
         this.txtPostalCode = new TextField(driver, page.getTextfield_postalCode());
         this.txtCountry = new TextField(driver, page.getTextfield_country());
-        this.txtSalesRepEmployeeNumber = new TextField(driver, page.getChosen_salesRepEmployeeNumber());
+        this.txtSalesRepEmployeeNumber = new Chosen(driver, page.getChosen_salesRepEmployeeNumber());
         this.txtCreditLimit = new TextField(driver, page.getTextfield_creditLimit());
         this.btnSave = new Button(driver, page.getButton_save());
         this.btnSaveAndGoBack = new Button(driver, page.getButton_saveAndGoBackToCustomersPage());
@@ -75,7 +77,7 @@ public class AddCustomerPageObjectsFramework {
         return txtCountry;
     }
 
-    public TextField getTxtSalesRepEmployeeNumber() {
+    public Chosen getTxtSalesRepEmployeeNumber() {
         return txtSalesRepEmployeeNumber;
     }
 
