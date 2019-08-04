@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="626bf88c-8811-4a08-a0ff-09398221350d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datapool/ORM/Listas/CustomersList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datapool/ORM/Listas/CustomersList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datapool/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Chrome/chromedriver_linux64.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Chrome/chromedriver_mac64.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Chrome/chromedriver_win32.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Firefox/geckodriver-v0.24.0-linux32.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Firefox/geckodriver-v0.24.0-linux64.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Firefox/geckodriver-v0.24.0-macos.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Firefox/geckodriver-v0.24.0-win32.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Firefox/geckodriver-v0.24.0-win64.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Elements/DropdownOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/IDropdownOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/CustomersPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/CustomersPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectsFramework/CustomersPageObjectsFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectsFramework/CustomersPageObjectsFramework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tasks/AddCustomerTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tasks/AddCustomerTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tasks/CustomersTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tasks/CustomersTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Desafio1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/DesafioSicrediTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Desafio2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Datapool/ORM/Listas/CustomersList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Datapool/ORM/Listas/CustomersList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Driver/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Driver/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Elements/DropdownOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interfaces/IDropdownOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/CustomersPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/CustomersPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PageObjectsFramework/CustomersPageObjectsFramework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjectsFramework/CustomersPageObjectsFramework.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Tasks/AddCustomerTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tasks/AddCustomerTasks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Tasks/CustomersTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tasks/CustomersTasks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Desafio1Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Desafio2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
