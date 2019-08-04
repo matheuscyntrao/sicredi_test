@@ -4,7 +4,7 @@ public class Customer {
 
     private String Name, LastName, ContactFirstName, Phone,
             AddressLine1, AddressLine2, City, State, PostalCode,
-            Country, fromEmployeer;
+            Country, FromEmployeer;
     private int CreditLimit;
 
     public Customer(String name, String lastName, String contactFirstName, String phone, String addressLine1, String addressLine2, String city, String state, String postalCode, String country, String fromEmployeer, int creditLimit) {
@@ -18,7 +18,7 @@ public class Customer {
         State = state;
         PostalCode = postalCode;
         Country = country;
-        this.fromEmployeer = fromEmployeer;
+        FromEmployeer = fromEmployeer;
         CreditLimit = creditLimit;
     }
 
@@ -103,11 +103,11 @@ public class Customer {
     }
 
     public String getFromEmployeer() {
-        return fromEmployeer;
+        return FromEmployeer;
     }
 
     public void setFromEmployeer(String fromEmployeer) {
-        this.fromEmployeer = fromEmployeer;
+        FromEmployeer = fromEmployeer;
     }
 
     public int getCreditLimit() {
