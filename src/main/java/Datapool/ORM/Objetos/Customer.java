@@ -2,24 +2,11 @@ package Datapool.ORM.Objetos;
 
 public class Customer {
 
-    private String Name, LastName, ContactFirstName, Phone,
+    public String Name, LastName, ContactFirstName, Phone,
             AddressLine1, AddressLine2, City, State, PostalCode,
-            Country, FromEmployeer;
-    private int CreditLimit;
+            Country, FromEmployeer, CreditLimit;
 
-    public Customer(String name, String lastName, String contactFirstName, String phone, String addressLine1, String addressLine2, String city, String state, String postalCode, String country, String fromEmployeer, int creditLimit) {
-        Name = name;
-        LastName = lastName;
-        ContactFirstName = contactFirstName;
-        Phone = phone;
-        AddressLine1 = addressLine1;
-        AddressLine2 = addressLine2;
-        City = city;
-        State = state;
-        PostalCode = postalCode;
-        Country = country;
-        FromEmployeer = fromEmployeer;
-        CreditLimit = creditLimit;
+    public Customer() {
     }
 
     public String getName() {
@@ -110,11 +97,11 @@ public class Customer {
         FromEmployeer = fromEmployeer;
     }
 
-    public int getCreditLimit() {
+    public String getCreditLimit() {
         return CreditLimit;
     }
 
-    public void setCreditLimit(int creditLimit) {
+    public void setCreditLimit(String creditLimit) {
         CreditLimit = creditLimit;
     }
 }

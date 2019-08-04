@@ -9,7 +9,7 @@ public class CustomersList {
         JsonToObject jsonToObject = new JsonToObject();
 
         public List<Customer> getListaCustomer() {
-            return jsonToObject.datapoolMapping("\\DataPool\\ORM\\Customer.json", Customer.class);
+            return jsonToObject.datapoolMapping("C:\\Users\\Doce Infância\\Desktop\\sicredi_test\\src\\main\\java\\Datapool\\ORM\\Json\\Customer.json", Customer.class);
         }
 
 }
