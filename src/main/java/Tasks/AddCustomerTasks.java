@@ -30,10 +30,10 @@ public class AddCustomerTasks {
     }
 
     public void clickSave() {
-        this.addCustomerPageObjectsFramework.getBtnSave();
+        this.addCustomerPageObjectsFramework.getBtnSave().click();
     }
 
     public void clickSaveAndReturn() {
-        this.addCustomerPageObjectsFramework.getBtnSaveAndGoBack();
+        this.addCustomerPageObjectsFramework.getBtnSaveAndGoBack().click();
     }
 }

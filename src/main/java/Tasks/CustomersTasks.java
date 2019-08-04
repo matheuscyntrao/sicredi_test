@@ -35,12 +35,10 @@ public class CustomersTasks {
     }
 
     public void checkFirstCheckBoxAndClickDelete() throws InterruptedException {
-        this.driver.findElement(By.xpath("//*[@id=\"gcrud-search-form\"]/div[2]/table/tbody/tr[1]/td[1]/input")).click();
-        this.customersPageObjectsFramework.getDropMoreOptions().clickDelete();
+        this.driver.findElement(By.xpath("//*[@id=\"gcrud-search-form\"]/div[2]/table/thead/tr[2]/td[1]")).click();
+        this.driver.findElement(By.xpath("//*[@id=\"gcrud-search-form\"]/div[2]/table/thead/tr[2]/td[2]/div[1]/a")).click();
         Thread.sleep(2000);
-        if (this.driver.findElement(By.className("modal-dialog")).isDisplayed()) {
-            this.driver.findElement(By.xpath("/html/body/div[2]/div[2]/div[2]/div/div/div[3]/button[2]")).click();
-        }
+        this.driver.findElement(By.xpath("/html/body/div[2]/div[2]/div[3]/div/div/div[3]/button[2]")).click();
         Thread.sleep(2000);
         this.isMesssageSuccessIsPresent();
     }

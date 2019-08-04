@@ -2,17 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="626bf88c-8811-4a08-a0ff-09398221350d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/Desafio1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/Desafio2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicredi_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sicredi_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Datapool/ORM/Listas/CustomersList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datapool/ORM/Listas/CustomersList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datapool/ORM/Objetos/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datapool/ORM/Objetos/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Datapool/config.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Driver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tasks/CustomersPageTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tasks/CustomersTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Chrome/chromedriver_linux64.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Chrome/chromedriver_mac64.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Chrome/chromedriver_win32.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Firefox/geckodriver-v0.24.0-linux32.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Firefox/geckodriver-v0.24.0-linux64.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Firefox/geckodriver-v0.24.0-macos.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Firefox/geckodriver-v0.24.0-win32.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Firefox/geckodriver-v0.24.0-win64.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Elements/DropdownOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/IDropdownOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/CustomersPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/CustomersPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectsFramework/CustomersPageObjectsFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectsFramework/CustomersPageObjectsFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tasks/AddCustomerTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tasks/AddCustomerTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tasks/CustomersTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tasks/CustomersTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Desafio1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/DesafioSicrediTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Desafio2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Datapool/ORM/Listas/CustomersList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Datapool/ORM/Listas/CustomersList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Driver/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Driver/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Elements/DropdownOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Interfaces/IDropdownOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/CustomersPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/CustomersPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjectsFramework/CustomersPageObjectsFramework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjectsFramework/CustomersPageObjectsFramework.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tasks/AddCustomerTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tasks/AddCustomerTasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tasks/CustomersTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tasks/CustomersTasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Desafio1Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Desafio2Test.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,9 +54,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Driver/WebDrivers/Chrome" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,8 +82,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Desafio1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DesafioSicrediTest">
+    <configuration name="DesafioSicrediTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sicredi_test" />
       <extension name="coverage">
         <pattern>
@@ -73,15 +92,32 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Desafio1Test" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.DesafioSicrediTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesafioSicrediTest.DesafioDois" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sicredi_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.DesafioSicrediTest" />
+      <option name="METHOD_NAME" value="DesafioDois" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Desafio1Test" />
+        <item itemvalue="JUnit.DesafioSicrediTest" />
+        <item itemvalue="JUnit.DesafioSicrediTest.DesafioDois" />
       </list>
     </recent_temporary>
   </component>

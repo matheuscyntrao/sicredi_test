@@ -14,7 +14,7 @@ public class CustomersPageObject {
     @FindBy(className = "customerName")
     private WebElement textfield_customerName;
 
-    @FindBy(xpath = "//*[@id=\"gcrud-search-form\"]/div[2]/table/tbody/tr[1]/td[2]/div[1]/div/button")
+    @FindBy(xpath = "//*[@id=\"gcrud-search-form\"]/div[2]/table/tbody/tr/td[2]/div[1]/div/button")
     private WebElement button_firstRegistryMoreOptions;
 
     public WebElement getButton_addCustomer() {

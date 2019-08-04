@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Driver {
 
     public static WebDriver ChromeDriverWindows32() {
-        System.setProperty("webdriver.chrome.driver", ".\\src\\main\\java\\Driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\java\\Driver\\chromedriver.exe");
         return new ChromeDriver();
     }
 

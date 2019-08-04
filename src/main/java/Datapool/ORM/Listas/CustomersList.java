@@ -6,10 +6,9 @@ import Utils.JsonToObject;
 
 public class CustomersList {
 
-        JsonToObject jsonToObject = new JsonToObject();
+    JsonToObject jsonToObject = new JsonToObject();
 
-        public List<Customer> getListaCustomer() {
-            return jsonToObject.datapoolMapping("C:\\Users\\Doce Infância\\Desktop\\sicredi_test\\src\\main\\java\\Datapool\\ORM\\Json\\Customer.json", Customer.class);
-        }
-
+    public List<Customer> getListaCustomer() {
+        return jsonToObject.datapoolMapping("src\\main\\java\\Datapool\\ORM\\Json\\Customer.json", Customer.class);
+    }
 }
